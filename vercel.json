@@ -1,7 +1,15 @@
 {
-    "rewrites": [
-      { "source": "/index", "destination": "/index.html" },
-      { "source": "/downloads", "destination": "/arquivos.html" }
-    ]
-  }
-  
+  "redirects": [
+    { "source": "/index", "destination": "/", "permanent": false },
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/downloads/arquivos.html", "destination": "/downloads", "permanent": true },
+    { "source": "/info/sobre.html", "destination": "/info/about", "permanent": true },
+    { "source": "/juridico/termos.html", "destination": "/legal/terms", "permanent": true },
+    { "source": "/juridico/politica.html", "destination": "/legal/privacy", "permanent": true },
+    { "source": "/EN-US/index.html", "destination": "/en", "permanent": true },
+    { "source": "/EN-US/downloads/arquivos.html", "destination": "/en/downloads", "permanent": true },
+    { "source": "/EN-US/info/about.html", "destination": "/en/info/about", "permanent": true },
+    { "source": "/EN-US/juridico/terms.html", "destination": "/en/legal/terms", "permanent": true },
+    { "source": "/EN-US/juridico/privacy.html", "destination": "/en/legal/privacy", "permanent": true }
+  ]
+}
