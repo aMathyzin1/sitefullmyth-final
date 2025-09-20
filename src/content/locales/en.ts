@@ -163,7 +163,7 @@ export const homeContentEn: HomeContent = {
     title: 'Join our community',
     description:
       'Get tailored support, giveaways and live monitoring sessions on the official Discord server.',
-    cta: { label: 'Join Discord', href: 'https://amathyzin.com/discord' },
+    cta: { label: 'Join Discord', href: '/en/discord' },
     widgetUrl: 'https://discord.com/widget?id=1210446694953779260&theme=dark'
   }
 };
@@ -191,7 +191,7 @@ export const aboutContentEn: AboutContent = {
   community: {
     description:
       'Join our Discord server to receive support, follow releases, take part in giveaways and contribute with feedback.',
-    cta: { label: 'Join Discord', href: 'https://amathyzin.com/discord' }
+    cta: { label: 'Join Discord', href: '/en/discord' }
   }
 };
 

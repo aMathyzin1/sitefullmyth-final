@@ -64,7 +64,7 @@ export const downloadProjectsPt: DownloadProject[] = [
       },
       {
         label: 'Comunidade no Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       }
@@ -143,7 +143,7 @@ export const downloadProjectsPt: DownloadProject[] = [
       },
       {
         label: 'Download via Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       },
@@ -241,7 +241,7 @@ export const downloadProjectsPt: DownloadProject[] = [
       },
       {
         label: 'Servidor no Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       }
@@ -326,7 +326,7 @@ export const downloadProjectsPt: DownloadProject[] = [
       },
       {
         label: 'Servidor no Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       }
@@ -412,7 +412,7 @@ export const downloadProjectsPt: DownloadProject[] = [
       },
       {
         label: 'Servidor no Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       }
@@ -480,7 +480,7 @@ export const downloadProjectsPt: DownloadProject[] = [
     downloads: [
       {
         label: 'Download via Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       }

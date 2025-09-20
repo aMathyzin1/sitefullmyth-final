@@ -35,7 +35,7 @@ export function Footer({ locale = 'pt' }: FooterProps) {
           <div className="flex flex-wrap gap-3">
             <FooterLink href="https://github.com/amathyzin" icon={<GithubLogo size={18} weight="bold" />}>GitHub</FooterLink>
             <FooterLink href="https://www.youtube.com/@aMathyzin" icon={<YoutubeLogo size={18} weight="bold" />}>YouTube</FooterLink>
-            <FooterLink href="https://amathyzin.com/discord" icon={<DiscordLogo size={18} weight="bold" />}>Discord</FooterLink>
+            <FooterLink href="/discord" icon={<DiscordLogo size={18} weight="bold" />}>Discord</FooterLink>
           </div>
         </div>
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
