@@ -14,7 +14,7 @@ export const downloadListingPt: DownloadListingItem[] = [
     actions: [
       {
         label: 'Download via Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       },
@@ -59,7 +59,7 @@ export const downloadListingPt: DownloadListingItem[] = [
     videoEmbed: 'https://www.youtube.com/embed/ciHfcpppItg',
     actions: [
       { label: 'Ver projeto', url: '/downloads/haunted', type: 'primary' },
-      { label: 'Servidor Discord', url: 'https://amathyzin.com/discord', type: 'discord', external: true }
+      { label: 'Servidor Discord', url: '/discord', type: 'discord', external: true }
     ],
     tags: ['haunted', 'miguelin', 'batch']
   },
@@ -77,6 +77,20 @@ export const downloadListingPt: DownloadListingItem[] = [
     tags: ['batchclick', 'batch', 'otimizacao']
   },
   {
+    id: 'autonetv1',
+    slug: 'autonetv1',
+    title: 'Autonet',
+    description:
+      'Otimizador de rede avançado que ajusta MTU, RWIN, TTL e prioridades para reduzir latência e estabilizar conexões.',
+    category: 'Rede',
+    videoEmbed: 'https://www.youtube.com/embed/0J4nhSur9DI',
+    actions: [
+      { label: 'Ver projeto', url: '/downloads/autonetv1', type: 'primary' },
+      { label: 'Servidor Discord', url: '/discord', type: 'discord', external: true }
+    ],
+    tags: ['autonet', 'rede', 'latencia']
+  },
+  {
     id: 'minimal-optimizer',
     title: 'Minimal Optimizer',
     description: 'Painel eficiente desenvolvido pela comunidade para ajustes rápidos.',
@@ -85,7 +99,7 @@ export const downloadListingPt: DownloadListingItem[] = [
     actions: [
       {
         label: 'Mais informações no Discord',
-        url: 'https://amathyzin.com/discord',
+        url: '/discord',
         type: 'discord',
         external: true
       },
@@ -125,6 +139,20 @@ export const downloadListingPt: DownloadListingItem[] = [
       { label: 'Senha', url: 'https://fir3.net/SenhaFPSV3', type: 'password', external: true }
     ],
     tags: ['fps', 'pack']
+  },
+  {
+    id: 'valorantbooster1',
+    slug: 'valorantbooster1',
+    title: 'Valorant Booster',
+    description:
+      'Ferramenta que ajusta configurações do Windows para aumentar o FPS e estabilizar partidas no Valorant.',
+    category: 'Games',
+    videoEmbed: 'https://www.youtube.com/embed/7qV-fDkxeVc',
+    actions: [
+      { label: 'Ver projeto', url: '/downloads/valorantbooster1', type: 'primary' },
+      { label: 'GitHub', url: 'https://github.com/aMathyzin/Valorant-Booster-Alpha', type: 'source', external: true }
+    ],
+    tags: ['valorant', 'fps', 'windows']
   },
   {
     id: 'storageclean',
@@ -215,7 +243,7 @@ export const downloadListingEn: DownloadListingItem[] = [
       url: 'https://www.youtube.com/watch?v=RzapmonmPp4'
     },
     actions: [
-      { label: 'Download on Discord', url: 'https://amathyzin.com/discord', type: 'discord', external: true },
+      { label: 'Download on Discord', url: '/en/discord', type: 'discord', external: true },
       { label: 'Source code', url: 'https://github.com/aMathyzin/aMathyBoost', type: 'source', external: true }
     ],
     highlight: 'Compatible with any hardware',
@@ -243,7 +271,7 @@ export const downloadListingEn: DownloadListingItem[] = [
     videoEmbed: 'https://www.youtube.com/embed/ciHfcpppItg',
     actions: [
       { label: 'View project', url: '/en/downloads/haunted', type: 'primary' },
-      { label: 'Discord server', url: 'https://amathyzin.com/discord', type: 'discord', external: true }
+      { label: 'Discord server', url: '/en/discord', type: 'discord', external: true }
     ],
     tags: ['haunted', 'miguelin', 'batch']
   },
@@ -261,13 +289,27 @@ export const downloadListingEn: DownloadListingItem[] = [
     tags: ['batchclick', 'automation']
   },
   {
+    id: 'autonetv1',
+    slug: 'autonetv1',
+    title: 'Autonet',
+    description:
+      'Advanced network optimizer that tunes MTU, RWIN, TTL and priorities to reduce latency and stabilize connections.',
+    category: 'Network',
+    videoEmbed: 'https://www.youtube.com/embed/0J4nhSur9DI',
+    actions: [
+      { label: 'View project', url: '/en/downloads/autonetv1', type: 'primary' },
+      { label: 'Discord server', url: '/en/discord', type: 'discord', external: true }
+    ],
+    tags: ['autonet', 'network', 'latency']
+  },
+  {
     id: 'minimal-optimizer',
     title: 'Minimal Optimizer',
     description: 'Lightweight dashboard maintained by the community for quick adjustments.',
     category: 'Windows',
     videoEmbed: 'https://www.youtube.com/embed/GG9ORzRMSrc',
     actions: [
-      { label: 'More details on Discord', url: 'https://amathyzin.com/discord', type: 'discord', external: true },
+      { label: 'More details on Discord', url: '/en/discord', type: 'discord', external: true },
       { label: 'Source code', url: 'https://github.com/Matheusdamoda/Minimal-Optimizer', type: 'source', external: true }
     ],
     tags: ['minimal optimizer']
@@ -299,6 +341,19 @@ export const downloadListingEn: DownloadListingItem[] = [
       { label: 'Password', url: 'https://fir3.net/SenhaFPSV3', type: 'password', external: true }
     ],
     tags: ['fpspack', 'firstboost']
+  },
+  {
+    id: 'valorantbooster1',
+    slug: 'valorantbooster1',
+    title: 'Valorant Booster',
+    description: 'Tool that adjusts Windows settings to raise FPS and stabilize Valorant matches.',
+    category: 'Games',
+    videoEmbed: 'https://www.youtube.com/embed/7qV-fDkxeVc',
+    actions: [
+      { label: 'View project', url: '/en/downloads/valorantbooster1', type: 'primary' },
+      { label: 'GitHub', url: 'https://github.com/aMathyzin/Valorant-Booster-Alpha', type: 'source', external: true }
+    ],
+    tags: ['valorant', 'booster', 'windows']
   },
   {
     id: 'storageclean',
